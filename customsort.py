@@ -34,4 +34,4 @@ if (args.output is None):
 else:
     with open(args.output, "w") as outfile:
         for i in outlist:
-            outfile.
+            outfile.write(i + "\n")
